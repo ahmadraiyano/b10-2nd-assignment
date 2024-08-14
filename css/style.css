@@ -157,6 +157,39 @@ header {
 }
 
 /* hero section endss */
+/* habits section starts */
+.habits {
+    width: 80vw;
+    margin: auto;
+    margin-top: 6.25rem;
+    text-align: center;
+}
+.habits-texts h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 0.9rem;
+}
+.habits-texts p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 3.6rem;
+}
+.habits-imgs {
+    display: flex;
+}
+.habits-imgs .habits-img img {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.habits-imgs .habits-img h3 {
+    color: #fff;
+    margin: 1rem 0rem;
+}
+.habits-imgs .habits-img p {
+    color: rgba(255, 255, 255, 0.5);
+}
+/* habits section ends */
+
 
 /* Breakpoints */
 @media screen and (max-width: 576px) {
@@ -205,4 +238,16 @@ header {
     .right .video-tutorial {
         bottom: 14rem;
     }
+    /* hero ends  */
+    /* habits starts  */
+    .habits {
+        margin-top: 25rem;
+    }
+    .habits-imgs {
+        flex-direction: column;
+    }
+    .habits-imgs .habits-img {
+        margin-bottom: 2rem;
+    }
+    /* habits ends  */
 }
