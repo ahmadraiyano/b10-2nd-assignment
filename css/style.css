@@ -463,7 +463,7 @@ hr {
         justify-content: space-around;
     }
     .hero-container .left .btn {
-        padding: 1rem 2.5rem;
+        padding: 1rem 2rem;
     }
     .right {
         width: 100%;
@@ -491,25 +491,29 @@ hr {
     /* habits ends  */
     /* Run starts  */
     .run {
+        width: 80vw;
+        height: 33.1875rem;
         padding: 2rem;
         flex-direction: column;
         height: 35rem;
     }
     .run .run-texts {
         width: 100%;
-        height: 60%;
+        height: 16.5rem;
         justify-content: space-between;
         margin-right: 0rem;
     }
+    .run .run-texts h2{
+        font-size: 2rem;
+    }
     .run .run-texts button {
         width: 100%;
-        padding: 1rem 3rem;
-        margin-bottom: 2rem;
+        padding: 1rem 2rem;
     }
     .run .run-img {
         width: 100%;
-        height: 40%;
         background-size: cover;
+        margin-top: 2rem;
     }
 
     /* Run ends  */
@@ -536,10 +540,10 @@ hr {
         height: 60%;
     }
     .bmi-container .bmi-form form input, select {
-        width: 49.5%;
+        width: 48%;
     }
     .bmi-container .bmi-form form #activity {
-        width: 100%;
+        width: 97%;
     }
     /* bmi ends  */
     /* our team starts  */
