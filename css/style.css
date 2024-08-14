@@ -506,6 +506,9 @@ hr {
     .run .run-texts h2{
         font-size: 2rem;
     }
+    .run .run-texts p{
+        margin: 1rem 0rem;
+    }
     .run .run-texts button {
         width: 100%;
         padding: 1rem 2rem;
