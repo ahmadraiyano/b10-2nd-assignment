@@ -129,6 +129,9 @@ header {
     height: 2.5rem;
     background-color: rgb(230, 83, 60);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right .video-tutorial h3 {
     font-size: 1.5rem;
@@ -235,6 +238,148 @@ header {
     background-repeat: no-repeat;
 }
 /* Run section ends  */
+/* bmi starts  */
+.bmi-calculator .bmi-texts {
+    width: 42rem;
+    margin: 4rem auto;
+    text-align: left;
+}
+.bmi-calculator .bmi-texts h2{
+    font-size: 3rem;
+    color: #fff;
+}
+.bmi-calculator .bmi-texts p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+}
+.bmi-cal {
+    background: rgb(34, 34, 34);
+}
+.bmi-container {
+    width: 80vw;
+    height: 30rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.25rem 0rem;
+}
+.bmi-container .bmi-chart {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bmi-container .bmi-chart h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+.bmi-container .bmi-chart table {
+    width: 19.25rem;
+    height: 13.5rem;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-container .bmi-chart table th {
+    color: #fff;
+}
+.bmi-container .bmi-chart table th, td {
+    padding: 10px;
+}
+.bmi-container .bmi-chart table, tr, th, td {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+.bmi-container .bmi-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1.75rem;
+}
+.bmi-container .bmi-form h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+.bmi-container .bmi-form p {
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-container .bmi-form form input, select {
+    width: 45%;
+    margin-top: 0.75rem;
+    padding: 0.75rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-container .bmi-form form select option {
+    color: black;
+}
+.bmi-container .bmi-form form #activity {
+    width: 91%;
+}
+.bmi-container button {
+    font-size: 1.25rem;
+    background-color: rgb(230, 83, 60);
+    color: #fff;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2.75rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+/* bmi ends  */
+/* our team starts */
+.our-team .our-team-texts {
+    width: 42rem;
+    margin: 4rem auto;
+    text-align: center;
+}
+.our-team .our-team-texts h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+.our-team .our-team-texts p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+}
+.our-team .our-team-imgs {
+    width: 80vw;
+    margin: auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+.our-team .our-team-imgs .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} 
+.our-team .our-team-imgs img {
+    width: 20.41rem;
+    height: 17rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+.trainer-img-text {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+}
+.trainer-img-text h3 {
+    color: #fff;
+}
+.trainer-img-text p {
+    color: rgba(255, 255, 255, 0.5);
+}
+/* our team ends */
 
 
 /* Breakpoints */
@@ -320,4 +465,47 @@ header {
     }
 
     /* Run ends  */
+    /* bmi Starts  */
+    .bmi-calculator .bmi-texts {
+        width: 80vw;
+        margin: 4rem auto;
+        text-align: left;
+    }
+    .bmi-container {
+        height: 48.25rem;
+        padding: 2rem 0rem;
+        flex-direction: column;
+    }
+    .bmi-container .bmi-chart {
+        width: 100%;
+        height: 40%;
+    }
+    .bmi-container .bmi-chart table {
+        width: 100%;
+    }
+    .bmi-container .bmi-form {
+        width: 100%;
+        height: 60%;
+    }
+    .bmi-container .bmi-form form input, select {
+        width: 49.5%;
+    }
+    .bmi-container .bmi-form form #activity {
+        width: 100%;
+    }
+    /* bmi ends  */
+    /* our team starts  */
+    .our-team .our-team-texts {
+        width: 80vw;
+    }
+    .our-team .our-team-imgs {
+        grid-template-columns: auto;
+        padding: 1.25rem;
+    }
+    .our-team .our-team-imgs img {
+        width: 100%;
+        height: 17rem;
+        margin-bottom: 1rem;
+    }
+    /* our team ends  */
 }
