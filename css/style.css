@@ -189,6 +189,52 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 /* habits section ends */
+/* Run section starts  */
+.run {
+    width: 80vw;
+    margin: auto;
+    margin-top: 6.25rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 2rem;
+    padding-left: 3.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.run .run-texts {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-right: 6rem;
+}
+.run .run-texts h2{
+    font-size: 3rem;
+    color: #fff;
+}
+.run .run-texts p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.run .run-texts button {
+    font-size: 1.25rem;
+    background-color: rgb(230, 83, 60);
+    color: #fff;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2.75rem;
+    cursor: pointer;
+}
+.run .run-img {
+    width: 40%;
+    height: 19.5em;
+    border-radius: 1rem;
+    background-image: url(../images/run.jpg);
+    background-size: 380%;
+    background-position: 67% 35%;
+    background-repeat: no-repeat;
+}
+/* Run section ends  */
 
 
 /* Breakpoints */
@@ -224,7 +270,7 @@ header {
         justify-content: space-around;
     }
     .hero-container .left .btn {
-        padding: 1rem 3rem;
+        padding: 1rem 2.5rem;
     }
     .right {
         width: 100%;
@@ -250,4 +296,28 @@ header {
         margin-bottom: 2rem;
     }
     /* habits ends  */
+    /* Run starts  */
+    .run {
+        padding: 2rem;
+        flex-direction: column;
+        height: 35rem;
+    }
+    .run .run-texts {
+        width: 100%;
+        height: 60%;
+        justify-content: space-between;
+        margin-right: 0rem;
+    }
+    .run .run-texts button {
+        width: 100%;
+        padding: 1rem 3rem;
+        margin-bottom: 2rem;
+    }
+    .run .run-img {
+        width: 100%;
+        height: 40%;
+        background-size: cover;
+    }
+
+    /* Run ends  */
 }
