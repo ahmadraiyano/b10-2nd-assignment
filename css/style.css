@@ -556,4 +556,16 @@ hr {
         margin-bottom: 1rem;
     }
     /* our team ends  */
+    /* footer starts  */
+    .footer-container .info {
+        flex-direction: column;
+        padding-top: 4rem;
+    }
+    .footer-container .info .fitness-info {
+        width: 100%;
+    }
+    .footer-container .info div {
+        margin-bottom: 2rem;
+    }
+    /* footer endss  */
 }
