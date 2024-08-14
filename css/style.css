@@ -380,6 +380,54 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 /* our team ends */
+/* footer starts */
+.footer {
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 5.5rem;
+}
+.footer-container {
+    width: 80vw;
+    margin: auto;
+}
+.footer-container .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 4rem;
+}
+.footer-container .info .fitness-info {
+    width: 40%;
+}
+.footer-container .info .fitness-info h2 {
+    font-size: 4.25rem;
+    color: rgb(230, 83, 60);
+    margin-bottom: 1.25rem;
+}
+.footer-container .info .fitness-info p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-container .info .useful-link h3{
+    font-size: 2rem;
+    color: #fff;
+}
+.footer-container .info .useful-link ul li{
+    margin-top: 2rem;
+}
+.footer-container .info .useful-link ul li a{
+    color: rgba(255, 255, 255, 0.5);
+}
+hr {
+    width: 80vw;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 5rem auto 0rem;
+}
+.copyright p {
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 2rem 0rem;
+}
+/* footer ends */
 
 
 /* Breakpoints */
